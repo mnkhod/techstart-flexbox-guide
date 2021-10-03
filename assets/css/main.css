@@ -1,0 +1,30 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1em 3em;
+    position: absolute;
+    top: 0.5%;
+    left: 0;
+    width: 100%;
+}
+
+nav .logo {
+    cursor: pointer;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    color: #1a0b60;
+}
+
+nav .logo:hover {
+    color: #497efd;
+}
