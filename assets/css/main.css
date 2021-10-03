@@ -112,7 +112,7 @@ h1{
     cursor: pointer;
 }
 
-@keyframes mousedownanimation {
+@keyframes mouseDownAnimation {
     0%   {margin-bottom: 0}
     50%  {margin-bottom: 2%}
     100%  {margin-bottom: 0%}
