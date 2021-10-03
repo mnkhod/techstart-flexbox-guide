@@ -39,10 +39,13 @@ h1{
 }
 
 #main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100vh;
     padding-left: 11em;
     padding-right: 8em;
+    background-image: -o-radial-gradient( 10% 20%,  circle farthest-corner,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
 }
 
