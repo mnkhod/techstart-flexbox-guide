@@ -112,7 +112,7 @@ h1{
     cursor: pointer;
 }
 
-@keyframes mouseDownAnimation {
+@keyframes mousedownanimation {
     0%   {margin-bottom: 0}
     50%  {margin-bottom: 2%}
     100%  {margin-bottom: 0%}
@@ -177,8 +177,13 @@ h1{
     }
 
     #main .rightSide img {
-        width: 17em;
+        width: 12em;
         margin-left: 3em;
+    }
+
+
+    #main .mouseDownIconContainer {
+        bottom: -8%;
     }
 
 }
