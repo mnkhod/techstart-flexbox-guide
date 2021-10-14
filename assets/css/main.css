@@ -33,6 +33,7 @@ h1{
 }
   
 
+
 .btn:hover {
     font-weight: bold;
     font-size: 1em;
@@ -43,9 +44,9 @@ h1{
     display: -ms-flexbox;
     display: flex;
     height: 100vh;
-    padding: 0 5em;
-    background-image: -o-radial-gradient( 10% 20%,  circle farthest-corner,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    padding: 0 6em;
+    background-image: -o-radial-gradient( 10% 20%,  circle farthest-corner,  rgba(27, 155, 255) 0%, rgba(166,239,253,1) 90.1% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(27, 155, 255) 0%, rgba(166,239,253,1) 90.1% );
 }
 
 #main .leftSide {
@@ -89,10 +90,23 @@ h1{
     color: var(--main-dark-blue-color);
 }
 
-#main h5 {
-    font-size: 0.8em;
+.presentsContainer{
+    display: flex;
+    align-items: center;
+}
+.presentsContainer #logo {
+    width: 11em;
+    height: auto;
+}
+
+.presentsContainer span{
+    margin-left: 1em;
+    font-size: 0.9em;
     text-transform: uppercase;
+    font-weight: bold;
     letter-spacing: 10px;
+    position: relative;
+    bottom: 1.5px;
 }
 
 #main .mouseDownIconContainer {
